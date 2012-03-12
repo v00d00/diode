@@ -31,8 +31,7 @@
 		android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:background="@color/black">
+        android:orientation="vertical">
 
 	<ImageView android:id="@+id/loading_splash_image"
 		android:layout_width="wrap_content"
@@ -41,19 +40,19 @@
         android:layout_gravity="center"
         android:src="@drawable/reddit_alien"
 		/>
-		
+
 	<TextView android:id="@+id/loading_splash_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        
+
       	android:singleLine="true"
         android:ellipsize="marquee"
         android:gravity="center"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:textColor="@color/gray_75"
+        android:textColor="@color/white"
         android:text="@string/loading_splash_text"
 	    />
-	    
+
 </LinearLayout>
